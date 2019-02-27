@@ -9,7 +9,7 @@ import java.io.Serializable;
  * */
 
 public class Singleton7_Serializable implements Serializable {
-    private static Singleton7_Serializable instance;
+    private static volatile Singleton7_Serializable instance;
 
     private Singleton7_Serializable(){}
 
